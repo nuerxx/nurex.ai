@@ -1,9 +1,12 @@
+/src/pages/HomePage.jsx
 import React from "react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import HomePage from "./pages/HomePage";
 
-export default function HomePage() {
-  return (
+function App() {
+  return <HomePage />;
+}
+
+export default App;
     <div className="min-h-screen bg-black text-white font-sans">
       <header className="px-6 py-4 flex justify-between items-center border-b border-gray-800">
         <h1 className="text-2xl font-bold">Nurex</h1>
