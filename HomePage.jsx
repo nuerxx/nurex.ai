@@ -1,12 +1,8 @@
 /src/pages/HomePage.jsx
-import React from "react";
-import HomePage from "./pages/HomePage";
+git add .
+git commit -m "Add HomePage"
+git push origin main
 
-function App() {
-  return <HomePage />;
-}
-
-export default App;
     <div className="min-h-screen bg-black text-white font-sans">
       <header className="px-6 py-4 flex justify-between items-center border-b border-gray-800">
         <h1 className="text-2xl font-bold">Nurex</h1>
